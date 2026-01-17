@@ -1,0 +1,16 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  background-color: #e9f5ee;
+  border-radius: 8px;
+}
+
+.card {
+  border-radius: 15px;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Orang Tua, Ekskul & Laporan | SIMAK-3</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark bg-success">
+  <div class="container-fluid">
+    <span class="navbar-brand">
+      <i class="fas fa-handshake"></i> Orang Tua, Ekskul & Pelaporan
+    </span>
+    <a href="../dashboard.html" class="btn btn-light btn-sm">Kembali</a>
+  </div>
+</nav>
+
+<div class="container mt-4">
+
+<h4>Manajemen Hubungan & Kegiatan</h4>
+
+<ul class="nav nav-tabs mt-3">
+  <li class="nav-item">
+    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#ortu">
+      Orang Tua
+    </button>
+  </li>
+  <li class="nav-item">
+    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#komunikasi">
+      Komunikasi
+    </button>
+  </li>
+  <li class="nav-item">
+    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#ekskul">
+      Ekstrakurikuler
+    </button>
+  </li>
+  <li class="nav-item">
+    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#laporan">
+      Pelaporan
+    </button>
+  </li>
+</ul>
+
+<div class="tab-content p-3 border border-top-0">
+
+<!-- ORANG TUA -->
+<div class="tab-pane fade show active" id="ortu">
+  <table class="table table-bordered">
+    <thead class="table-success">
+      <tr>
+        <th>Nama Siswa</th>
+        <th>Nama Ayah</th>
+        <th>Nama Ibu</th>
+        <th>No HP</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Contoh Siswa</td>
+        <td>Ayah Contoh</td>
+        <td>Ibu Contoh</td>
+        <td>08xxxxxxxx</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- KOMUNIKASI -->
+<div class="tab-pane fade" id="komunikasi">
+  <form>
+    <label>Catatan Komunikasi Sekolah–Rumah</label>
+    <textarea class="form-control mb-2" rows="4"></textarea>
+    <button class="btn btn-success">Simpan Catatan</button>
+  </form>
+
+  <hr>
+
+  <h6>Dokumentasi Home Visit</h6>
+  <input type="file" class="form-control mb-2">
+</div>
+
+<!-- EKSKUL -->
+<div class="tab-pane fade" id="ekskul">
+  <table class="table table-bordered table-striped">
+    <thead class="table-info">
+      <tr>
+        <th>Nama Siswa</th>
+        <th>Ekstrakurikuler</th>
+        <th>Keaktifan</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Contoh Siswa</td>
+        <td>Pramuka</td>
+        <td>Aktif</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="mt-2">
+    <strong>Daftar Ekskul:</strong> Pramuka, Drumband, OMI, TPA
+  </p>
+</div>
+
+<!-- LAPORAN -->
+<div class="tab-pane fade" id="laporan">
+  <ul class="list-group">
+    <li class="list-group-item">
+      <i class="fas fa-file"></i> Laporan Wali Kelas Semester
+    </li>
+    <li class="list-group-item">
+      <i class="fas fa-file"></i> Arsip Surat Menyurat
+    </li>
+    <li class="list-group-item">
+      <i class="fas fa-file"></i> Laporan Akhir Tahun
+    </li>
+    <li class="list-group-item">
+      <i class="fas fa-database"></i> Backup Administrasi
+    </li>
+  </ul>
+</div>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
